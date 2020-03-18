@@ -1,0 +1,30 @@
+@import "../../utilities/variables.scss";
+
+#about-me{
+    padding:0;
+    align-items:center;
+    background:linear-gradient(180deg, #74EBD5 0%, #ACB6E5 100%);
+}
+
+.about-me-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+    width:92%;
+    margin:1em 2em;
+    height:100%;
+    padding:1.5em;
+}
+.about-me.profile-pic{
+
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+}
+
+.about-me-paragraph{
+    text-align:center;
+    font-size:1.3em;
+}
